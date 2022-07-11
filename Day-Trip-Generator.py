@@ -30,22 +30,18 @@ restaurant_list =["Olive Garden", "Capognas Dugout", "Taco Bell", "Chilli's"]
 
 
 print( "Hello Everyone, and welcome to the random day generator! We have selected four wonderful locations at random that we know you'll simply adore. Lets begin shall we? ") 
-input(" y or n: ")
+print("Your randomly selected destination is")
 
-x="location"
-
-
-while x:
-    x == random.choice
-    print("Your randomly selected destination is")
-    print(random.choice(destination_list))
+while (True):
+    d = (random.choice(destination_list))
+    print(d)
     print("Will you be ok with that?") 
-    input("y or n: ")
+    input = input("y or n: ")
     if input == "y":
-            print("Awesome your destination has been selected. ")
-            print(x)
+        print("Awesome your destination has been selected. ")
+        break
     elif input == "n":
-            print("We are sorry. How about:")
+        print("We are sorry. How about:")
 
 
 
