@@ -36,16 +36,28 @@ while (True):
     d = (random.choice(destination_list))
     print(d)
     print("Will you be ok with that?") 
-    input = input("y or n: ")
-    if input == "y":
+    choice = input("y or n: ")
+    if choice == "y":
         print("Awesome your destination has been selected. ")
+        print(d)
         break
-    elif input == "n":
+    elif choice == "n":
         print("We are sorry. How about:")
 
 
-
-
+print("Next we'll select a means for travel while there ")
+print("Your means of travel are by ")
+while(True):
+    t = (random.choice(transportation_list)) 
+    print(t)
+    print("Will you be ok with that?") 
+    choice = input("y or n: ")
+    if choice == "y":
+        print("Awesome your means of travel have been selected. ")
+        print(t)
+        break
+    elif choice == "n":
+        print("We are sorry. How about:")
 
 
 
