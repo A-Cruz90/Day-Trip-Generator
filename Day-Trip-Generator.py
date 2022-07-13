@@ -1,4 +1,6 @@
 import random
+from subprocess import CompletedProcess
+from turtle import right
 
 
 
@@ -104,6 +106,8 @@ print(dine)
 
 print("We hope you enjoy your day ")
 print("Will you be ok with your perfectly planned out day? ")
-print(input("y or n? "))
-choice = input
-
+choice = (input("y or n? "))
+if choice == "y":
+    print("Have fun!!!")
+elif choice == "n":
+    print("We are sorry lets try and plan this day out one more time ok. ")
