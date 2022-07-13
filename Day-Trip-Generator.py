@@ -10,7 +10,7 @@ destination_list =["Las Vegas, NV", "Cleveland, OH", "Charlotte, NC", "Tampa, FL
 
 transportation_list =["Private Bus", "Car Rental", "Cycling", "Uber"]
 
-entertainment_list =["Busch Gardens", "Kings Landing", "Sight Seeing ", "Theater"]
+entertainment_list =["Casino", "Kayaking", "Sight Seeing ", "Theater"]
 
 restaurant_list =["Little NY", "Little Italy", "Taco Bell", "Chilli's"]
 
@@ -63,7 +63,7 @@ while(True):
 
 
 print("Next we'll decide entertainment while there ")
-print("Your enetertainment will be ")
+print("Your entertainment will be ")
 while(True):
     entertainment = (random.choice(entertainment_list)) 
     print(entertainment)
